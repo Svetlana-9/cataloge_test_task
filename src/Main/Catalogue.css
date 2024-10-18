@@ -1,0 +1,26 @@
+.catalogue {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 25px;
+  row-gap: 60px;
+  column-gap: 30px;
+}
+
+.search {
+ width: 200px;
+ height: 20px;
+ border-radius: 20px;
+ border: 2px solid black;
+ padding: 7px;
+}
+
+.titleAndSearch{
+  display: flex;
+  justify-content: space-between;
+  align-items:center ;
+  position: relative;
+  width: 100%;
+  padding: 10px 15px;
+  box-sizing: border-box;
+}
