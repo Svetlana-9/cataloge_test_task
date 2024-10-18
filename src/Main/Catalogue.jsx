@@ -7,12 +7,12 @@ export default function Catalogue(props) {
 
   const searchProducts = useMemo(() => {
     return props.allProducts.filter((product) =>
-      product.title.toLowerCase().includes(search)
+      product.title.toLowerCase().includes(search.trim().toLowerCase())
     );
   }, [search, props.allProducts]);
 
   function onChange(event) {
-    setSearch(event.target.value.trim().toLowerCase());
+    setSearch(event.target.value);
   }
 
   return (

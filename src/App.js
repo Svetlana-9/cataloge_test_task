@@ -61,7 +61,9 @@ function App() {
   function DeleteFromCart(product) {
     const updatedCart = { ...cart };
     if (updatedCart[product.id]) {
-      updatedCart[product.id] = updatedCart[product.id] - 1;
+      updatedCart[product.id] === 1
+        ? delete updatedCart[product.id]
+        : (updatedCart[product.id] = updatedCart[product.id] - 1);
       setCart(updatedCart);
       try {
         localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(updatedCart));
@@ -89,11 +91,12 @@ function App() {
           allProducts={allProducts}
           setAllProducts={setAllProducts}
           cart={cart}
-        /> 
+        />
       )}
       <footer className="footer">
         <h3>
-          Автор: Девяткина Светлана Сергеевна<br />
+          Автор: Девяткина Светлана Сергеевна
+          <br />
           Телефон: +7-(985)-847-27-49 <br />
           email: sveta.devyakina.99@mail.ru <br />
         </h3>
