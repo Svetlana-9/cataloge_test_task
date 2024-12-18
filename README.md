@@ -12,15 +12,15 @@
 6. Loading при загрузке карточек товаров;
 7. Footer с информацией об авторе;
 
-![Каталог мороженого](https://github.com/user-attachments/assets/64535251-332e-4fec-80ac-24c8f730bf32)
+![Каталог мороженого](https://github.com/user-attachments/assets/0bf5e436-9f3b-49cb-a775-eb7f4c8c1e7a)
 
 8. Использование localStorage, в котором по ключу "cart" хранится актуальная информация о товарах в корзине в виде { id: количество экземпляров в корзине, ... };
 
-![local storage](https://github.com/user-attachments/assets/78cce837-5669-4720-bfc3-789d8a8f96e5)
+![local storage](https://github.com/user-attachments/assets/0bae7891-b3c1-4249-9ca9-92d40736e608)
 
 9. Поиск товаров в каталоге по названию (без учёта регистра).
 
-![Поиск](https://github.com/user-attachments/assets/51306809-d4c6-4efe-931d-a9391835f188)
+![Поиск](https://github.com/user-attachments/assets/57afcfc1-78d1-4e70-b969-097c0733eaf9)
 
 ## Запуск проекта
 
